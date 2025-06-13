@@ -5,15 +5,18 @@
 @tailwind components;
 @tailwind utilities;
 
+#root {
+  height: 100%;
+}
 
 /* global */
 @layer base {
   html {
-    @apply font-fira;
+    @apply font-fira h-full;
   }
 
   body {
-    @apply font-fira text-base bg-slate-950 text-slate-400;
+    @apply font-fira text-base bg-slate-950 text-slate-400 h-full;
     font-optical-sizing: auto;
     font-style: normal;
   }

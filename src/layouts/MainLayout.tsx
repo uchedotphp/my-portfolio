@@ -22,10 +22,10 @@ const MainLayout = () => {
     },
   ];
   return (
-    <div className="p-4 lg:p-[70px]">
-      <div className="bg-slate-900 rounded-[10px] overflow-hidden border border-slate-700">
+    <div className="h-full p-4 lg:p-[70px]">
+      <div className="h-full bg-slate-900 rounded-[10px] overflow-hidden border border-slate-700 flex flex-col">
         <header>header placeholder</header>
-        <main>
+        <main className="grow">
           <Outlet />
         </main>
 
