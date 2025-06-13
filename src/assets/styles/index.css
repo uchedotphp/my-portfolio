@@ -1,5 +1,44 @@
+@import './typography.css';
 @import './colors.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* global */
+@layer base {
+  html {
+    @apply font-fira;
+  }
+
+  body {
+    @apply font-fira text-base;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  h1 {
+    @apply text-5xl;
+  }
+
+  h2 {
+    @apply text-4xl;
+  }
+
+  h3 {
+    @apply text-3xl;
+  }
+
+  h4 {
+    @apply text-2xl;
+  }
+
+  h5 {
+    @apply text-xl;
+  }
+
+  h6 {
+    @apply text-lg;
+  }
+}

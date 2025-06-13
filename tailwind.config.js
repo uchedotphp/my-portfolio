@@ -2,6 +2,9 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      fira: ["Fira Code", 'monospace', "sans-serif"],
+    },
     extend: {
       colors: {
         slate: {
@@ -82,6 +85,62 @@ export default {
           900: "rgb(var(--color-rose-900))",
           950: "rgb(var(--color-rose-950))",
         },
+      },
+      fontSize: {
+        base: [
+          "var(--font-size-base)",
+          {
+            lineHeight: "19.6px",
+          },
+        ],
+        sm: [
+          "var(--font-size-1)",
+          {
+            lineHeight: "24px",
+          },
+        ],
+        md: [
+          "var(--font-size-2)",
+          {
+            lineHeight: "27px",
+          },
+        ],
+        lg: [
+          "var(--font-size-3)",
+          {
+            lineHeight: "30px",
+          },
+        ],
+        xl: [
+          "var(--font-size-4)",
+          {
+            lineHeight: "33.6px",
+          },
+        ],
+        "2xl": [
+          "var(--font-size-5)",
+          {
+            lineHeight: "42px",
+          },
+        ],
+        "3xl": [
+          "var(--font-size-6)",
+          {
+            lineHeight: "46.8px",
+          },
+        ],
+        "4xl": [
+          "var(--font-size-7)",
+          {
+            lineHeight: "57.6px",
+          },
+        ],
+        "5xl": [
+          "var(--font-size-8)",
+          {
+            lineHeight: "66px",
+          },
+        ],
       },
     },
   },
