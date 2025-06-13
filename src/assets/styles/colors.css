@@ -1,0 +1,82 @@
+@layer base {
+    :root {
+        /* slate */
+        --color-slate-50: 248, 250, 252;
+        --color-slate-100: 241, 245, 249;
+        --color-slate-200: 226, 232, 240;
+        --color-slate-300: 202, 213, 226;
+        --color-slate-400: 144, 161, 185;
+        --color-slate-500: 98, 116, 142;
+        --color-slate-600: 69, 85, 108;
+        --color-slate-700: 49, 65, 88;
+        --color-slate-800: 29, 41, 61;
+        --color-slate-900: 15, 23, 43;
+        --color-slate-950: 2, 6, 24;
+
+        /* orange */
+        --color-orange-50: 255, 247, 237;
+        --color-orange-100: 255, 237, 212;
+        --color-orange-200: 255, 214, 167;
+        --color-orange-300: 255, 184, 106;
+        --color-orange-400: 255, 137, 4;
+        --color-orange-500: 255, 105, 0;
+        --color-orange-600: 245, 73, 0;
+        --color-orange-700: 202, 53, 0;
+        --color-orange-800: 159, 45, 0;
+        --color-orange-900: 126, 42, 12;
+        --color-orange-950: 68, 19, 6;
+
+        /* teal */
+        --color-teal-50: 240, 253, 250;
+        --color-teal-100: 203, 251, 241;
+        --color-teal-200: 150, 247, 228;
+        --color-teal-300: 70, 236, 213;
+        --color-teal-400: 0, 213, 190;
+        --color-teal-500: 0, 187, 167;
+        --color-teal-600: 0, 150, 137;
+        --color-teal-700: 0, 120, 111;
+        --color-teal-800: 0, 95, 90;
+        --color-teal-900: 11, 79, 74;
+        --color-teal-950: 2, 47, 46;
+
+        /* indigo */
+        --color-indigo-50: 238, 242, 255;
+        --color-indigo-100: 224, 231, 255;
+        --color-indigo-200: 198, 210, 255;
+        --color-indigo-300: 163, 179, 255;
+        --color-indigo-400: 124, 134, 255;
+        --color-indigo-500: 97, 95, 255;
+        --color-indigo-600: 79, 57, 246;
+        --color-indigo-700: 67, 45, 215;
+        --color-indigo-800: 55, 42, 172;
+        --color-indigo-900: 49, 44, 133;
+        --color-indigo-950: 30, 26, 77;
+
+        /* purple */
+        --color-purple-50: 250, 245, 255;
+        --color-purple-100: 243, 232, 255;
+        --color-purple-200: 233, 212, 255;
+        --color-purple-300: 218, 178, 255;
+        --color-purple-400: 194, 122, 255;
+        --color-purple-500: 173, 70, 255;
+        --color-purple-600: 152, 16, 250;
+        --color-purple-700: 130, 0, 219;
+        --color-purple-800: 110, 17, 176;
+        --color-purple-900: 89, 22, 139;
+        --color-purple-950: 60, 3, 102;
+
+        /* rose */
+        --color-rose-50: 255, 241, 242;
+        --color-rose-100: 255, 228, 230;
+        --color-rose-200: 255, 204, 210;
+        --color-rose-300: 255, 161, 173;
+        --color-rose-400: 255, 99, 126;
+        --color-rose-500: 255, 32, 86;
+        --color-rose-600: 236, 0, 63;
+        --color-rose-700: 198, 0, 54;
+        --color-rose-800: 165, 0, 54;
+        --color-rose-900: 139, 8, 54;
+        --color-rose-950: 77, 2, 24;
+    }
+
+}
