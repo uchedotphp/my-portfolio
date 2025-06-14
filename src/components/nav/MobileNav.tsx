@@ -5,7 +5,7 @@ const MobileNav = () => {
   return (
     <ul className="absolute top-full w-full z-10 bg-slate-900">
       <li className="border-y border-slate-700 pt-6 pb-3 px-6">
-        <p>Navigate to:</p>
+        <p># Navigate:</p>
       </li>
       {navItems.map(({ name, path }) => (
         <li key={name} className="border-b border-slate-700">
