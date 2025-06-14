@@ -2,7 +2,7 @@ import { Outlet } from "react-router";
 import GithubIcon from "../assets/icons/icon-git.svg";
 import LinkedinIcon from "../assets/icons/icon-linkedin.svg";
 import XIcon from "../assets/icons/icon-x.svg";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/nav/Navbar";
 
 const MainLayout = () => {
   const icons = [

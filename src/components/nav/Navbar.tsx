@@ -1,15 +1,14 @@
 import { NavLink } from "react-router";
-import IconMenu from '../assets/icons/burger-icon-menu.svg'
+import IconMenu from "../../assets/icons/burger-icon-menu.svg";
+import IconClose from "../../assets/icons/icon-close.svg";
+import { useState } from "react";
+import { navItems } from "./data";
+import MobileNav from "./MobileNav";
 
 const Navbar = () => {
-  const navItems = [
-    { name: "hello", path: "/" },
-    { name: "about-me", path: "/about-me" },
-    { name: "project", path: "/project" },
-    { name: "contact-me", path: "/contact" },
-  ];
+  const [isNavOpen, toggleNav] = useState(false);
   return (
-    <nav className="w-full flex items-center justify-between lg:justify-start border-b border-slate-700">
+    <nav className="relative w-full flex items-center justify-between lg:justify-start border-b border-slate-700">
       <span className="text-nowrap lg:border-r border-slate-700 pl-6 pr-[152px] py-4">
         uchechukwu-nwulu
       </span>
@@ -33,9 +32,20 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <button type="button" className="lg:hidden">
-        <img src={IconMenu} alt="menu icon" className="pr-[19px]" />
+      <button
+        onClick={() => toggleNav(!isNavOpen)}
+        type="button"
+        className="lg:hidden"
+      >
+        <img
+          src={isNavOpen ? IconClose : IconMenu}
+          alt="menu icon"
+          className="pr-[19px]"
+        />
       </button>
+
+      {/* mobile nav */}
+      {isNavOpen && <MobileNav />}
     </nav>
   );
 };
