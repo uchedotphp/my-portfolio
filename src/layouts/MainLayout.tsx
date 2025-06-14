@@ -29,7 +29,7 @@ const MainLayout = () => {
           <Navbar />
         </header>
 
-        <main className="overflow-auto">
+        <main className="overflow-auto h-full">
           <Outlet />
         </main>
 
