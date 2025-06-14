@@ -23,12 +23,13 @@ const MainLayout = () => {
     },
   ];
   return (
-    <div className="h-full p-4 lg:p-[70px]">
+    <div className="h-full p-4 lg:p-[70px] overflow-hidden">
       <div className="h-full bg-slate-900 rounded-[10px] overflow-hidden border border-slate-700 flex flex-col">
         <header>
           <Navbar />
         </header>
-        <main className="grow">
+
+        <main className="overflow-auto">
           <Outlet />
         </main>
 
