@@ -24,7 +24,7 @@ export default {
           50: "rgb(var(--color-orange-50))",
           100: "rgb(var(--color-orange-100))",
           200: "rgb(var(--color-orange-200))",
-          DEFAULT: "rgb(var(--color-orange-300))",
+          300: "rgb(var(--color-orange-300))",
           400: "rgb(var(--color-orange-400))",
           500: "rgb(var(--color-orange-500))",
           600: "rgb(var(--color-orange-600))",

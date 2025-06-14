@@ -20,7 +20,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 `${
                   isActive
-                    ? "text-white border-b-2 border-orange border-r-slate-700"
+                    ? "text-white border-b-2 border-orange-300 border-r-slate-700"
                     : ""
                 } ${
                   index === 3 ? "border-l" : ""
