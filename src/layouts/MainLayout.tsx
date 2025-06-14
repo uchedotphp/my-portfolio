@@ -2,6 +2,7 @@ import { Outlet } from "react-router";
 import GithubIcon from "../assets/icons/icon-git.svg";
 import LinkedinIcon from "../assets/icons/icon-linkedin.svg";
 import XIcon from "../assets/icons/icon-x.svg";
+import Navbar from "../components/Navbar";
 
 const MainLayout = () => {
   const icons = [
@@ -24,7 +25,9 @@ const MainLayout = () => {
   return (
     <div className="h-full p-4 lg:p-[70px]">
       <div className="h-full bg-slate-900 rounded-[10px] overflow-hidden border border-slate-700 flex flex-col">
-        <header>header placeholder</header>
+        <header>
+          <Navbar />
+        </header>
         <main className="grow">
           <Outlet />
         </main>
