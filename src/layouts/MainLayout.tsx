@@ -36,7 +36,7 @@ const MainLayout = () => {
         <footer>
           <ul className="flex items-center border-t border-slate-700">
             <li className="self-stretch border-r last:border-r-0 border-slate-700 px-6 py-4 grow lg:grow-0">
-              <p className="text-xl">find me in:</p>
+              <p className="text-sm">find me in:</p>
             </li>
             {icons.map(({ icon, name, url }, index) => (
               <li
