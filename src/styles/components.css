@@ -1,0 +1,13 @@
+@layer components {
+  .btn {
+  }
+
+  .btn--primary {
+    @apply bg-teal-300 text-white px-4 py-2 rounded-md;
+  }
+
+  .btn--outline {
+    @apply bg-transparent text-white py-2.5 px-3 rounded-lg border;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+}
