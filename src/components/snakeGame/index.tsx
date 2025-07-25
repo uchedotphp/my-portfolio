@@ -5,7 +5,7 @@ import { ChancesLeft } from "./ChancesLeft";
 import Button from "@components/Button";
 import { useSnakeStore } from "../../stateManagement/snakeStore";
 
-const SnakeGame = ({ className }: { className?: string }) => {
+const SnakeGame = ({ className, id }: { className?: string; id?: string }) => {
   const { chancesLeft } = useSnakeStore();
 
   return (
@@ -13,6 +13,7 @@ const SnakeGame = ({ className }: { className?: string }) => {
       className={`h-[506.69px] w-[469.32px] rounded-lg bg-gradient-to-r 
     from-[#175553] 
     to-[rgba(67,217,173,0.13)] p-8 relative flex gap-6 stroke-slate-700 ${className}`}
+      id={id}
     >
       <Bolt className="absolute top-3 right-3 bg-[radial-gradient(circle,_#217D7A_15%25,_#114B4A_100%25)] shadow-[inset_0px_1px_2px_0px_#1F8177,2px_2px_4px_0px_#0D4341]" />
       <Bolt className="absolute bottom-3 left-3 bg-[radial-gradient(circle,_#164C51_15%25,_#0D3A40_100%25)] shadow-[inset_0px_1px_2px_0px_#16645C,2px_2px_4px_0px_#092D32]" />
