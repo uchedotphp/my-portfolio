@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="relative w-full flex items-center justify-between lg:justify-start border-b border-slate-700">
       <span className="text-nowrap lg:border-r border-slate-700 pl-6 pr-[152px] py-4">
-        uchechukwu-nwulu
+        Uchechukwu-Prince-Nwulu
       </span>
       <ul className="items-center w-full hidden lg:flex">
         {navItems.map(({ name, path }, index) => (
@@ -20,7 +20,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 `${
                   isActive
-                    ? "text-white border-b-2 border-orange-300 border-r-slate-700"
+                    ? "text-white border-b-2 border-b-orange-300"
                     : ""
                 } ${
                   index === 3 ? "border-l" : ""
