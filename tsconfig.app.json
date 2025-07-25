@@ -16,7 +16,8 @@
       "@pages/*": ["./pages/*"],
       "@services/*": ["./services/*"],
       "@schemas/*": ["./schemas/*"],
-      "@utils/*": ["./utils/*"]
+      "@utils/*": ["./utils/*"],
+      "@stateManagement/*": ["./stateManagement/*"]
     },
 
     /* Bundler mode */
