@@ -3,6 +3,7 @@ import { lazy } from "react";
 
 const MainLayout = lazy(() => import("@layouts/MainLayout"));
 const HomePage = lazy(() => import("@pages/HomePage"));
+const AboutMe = lazy(() => import("@pages/AboutMe"));
 
 export const router = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ export const router = createBrowserRouter([
       {
         index: true,
         Component: HomePage,
+      },
+      {
+        path: "/about-me",
+        Component: AboutMe,
       },
     ],
   },

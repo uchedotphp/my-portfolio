@@ -1,0 +1,17 @@
+@layer utilities {
+  .border-color {
+    @apply border-slate-700;
+  }
+
+  .nav-header {
+    @apply py-3 px-6 flex items-center gap-3;
+  }
+
+  .nav-header--text {
+    @apply text-slate-400 text-sm lowercase;
+  }
+
+  .nav-header--active {
+    color: rgb(248, 250, 252);
+  }
+}
